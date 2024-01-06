@@ -1,0 +1,13 @@
+# Name: John Witkowski
+# Date: 12/26/2023
+#
+# Description: Exercises in The Basics chapter of Intro to Ruby book
+
+# Exercise 1
+"John " + "Witkowski"
+
+# Exercise 2
+thousands = 4567 / 1000
+hundreds = 4567 % 1000 / 100
+tens = 4567 % 1000 % 100 / 10
+ones = 4567 % 1000 % 100 % 10
