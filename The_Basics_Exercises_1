@@ -8,6 +8,51 @@
 
 # Exercise 2
 thousands = 4567 / 1000
+puts "thousands: #{thousands}"
+
 hundreds = 4567 % 1000 / 100
+puts "hundreds: #{hundreds}"
+
 tens = 4567 % 1000 % 100 / 10
+puts "tens: #{tens}"
+
 ones = 4567 % 1000 % 100 % 10
+puts "ones: #{ones}"
+
+# Exercise 3
+movies = {
+  a_new_hope: 1977, 
+  empire_strikes_back: 1980, 
+  return_of_the_jedi: 1983
+}
+puts movies[:a_new_hope]
+puts movies[:empire_strikes_back]
+puts movies[:return_of_the_jedi]
+
+# Exercise 4
+
+years = [
+  movies[:a_new_hope],
+  movies[:empire_strikes_back],
+  movies[:return_of_the_jedi],
+]
+
+puts years
+
+# Exercise 5
+five_fact = 5 * 4 * 3 * 2 * 1
+puts five_fact
+
+six_fact = five_fact * 6
+puts six_fact
+
+seven_fact = six_fact * 7
+puts seven_fact
+
+eight_fact = seven_fact * 8
+puts eight_fact
+
+# Exercise 6
+puts 3.14 ** 2
+puts 5.193 ** 2
+puts 8.1294 ** 2
